@@ -33,3 +33,11 @@ Dense(), Conv2d() etc. all have its initial weights, and could be diviided into 
         stddev：标准差
         seed：随机数种子
         
+2. RandomUniform 均匀分布初始化
+```keras.initializers.RandomUniform(minval=-0.05, maxval=0.05, seed=None)```
+        
+        minval：均匀分布下边界 
+        maxval：均匀分布上边界
+        seed：随机数种子
+        
+Reference: (Keras_网络配置 » 初始化方法Initializers)[http://keras-cn.readthedocs.io/en/latest/other/initializations/]
