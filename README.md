@@ -27,6 +27,7 @@ per_process_gpu_memory_fraction指定了每个GPU进程中使用显存的上限�
 
 Dense(), Conv2d() etc. all have its initial weights, and could be diviided into 2 categories.
 1. RandomNormal 正态分布初始化
+
 ```keras.initializers.RandomNormal(mean=0.0, stddev=0.05, seed=None))```
 
         mean：均值
@@ -34,6 +35,7 @@ Dense(), Conv2d() etc. all have its initial weights, and could be diviided into 
         seed：随机数种子
         
 2. RandomUniform 均匀分布初始化
+
 ```keras.initializers.RandomUniform(minval=-0.05, maxval=0.05, seed=None)```
         
         minval：均匀分布下边界 
