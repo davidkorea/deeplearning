@@ -22,3 +22,14 @@ per_process_gpu_memory_fraction指定了每个GPU进程中使用显存的上限�
 3、在执行训练脚本前使用：
 
     export CUDA_VISIBLE_DEVICES=1
+
+# Issue 2 Keras Initializer
+
+Dense(), Conv2d() etc. all have its initial weights, and could be diviided into 2 categories.
+1. RandomNormal 正态分布初始化
+```keras.initializers.RandomNormal(mean=0.0, stddev=0.05, seed=None))```
+
+        mean：均值
+        stddev：标准差
+        seed：随机数种子
+        
