@@ -40,4 +40,4 @@ Dense(), Conv2d() etc. all have its initial weights, and could be diviided into 
         maxval：均匀分布上边界
         seed：随机数种子
         
-Reference: (Keras_网络配置 » 初始化方法Initializers)[http://keras-cn.readthedocs.io/en/latest/other/initializations/]
+Reference: [Keras_网络配置 » 初始化方法Initializers](http://keras-cn.readthedocs.io/en/latest/other/initializations/)
