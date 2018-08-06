@@ -1,5 +1,7 @@
 # deeplearning
 
+> **Kaggle kernel has GPU, Paddlepaddle kernel doe not!!**
+
 # Issue 1 GPU
 
 1、在构造tf.Session()时候通过传递tf.GPUOptions作为可选配置参数的一部分来显式地指定需要分配的显存比例，如下所示：
