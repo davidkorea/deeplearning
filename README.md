@@ -48,4 +48,27 @@ Reference: [Keras_网络配置 » 初始化方法Initializers](http://keras-cn.r
 
 # Issue 3 CNN Visualization
 
-Refer to: [Fashion MNIST - CNN with Keras](https://www.kaggle.com/bugraokcu/cnn-with-keras)
+Reference: [Fashion MNIST - CNN with Keras](https://www.kaggle.com/bugraokcu/cnn-with-keras)
+
+# Issue 4 - Numpy.nonzero()
+
+Reference: [Numpy.nonzero() 详解 numpy module中 nonzero（）函数](https://blog.csdn.net/roler_/article/details/42395393)
+```
+>>> x = np.array([[1,0,0], [0,2,0], [1,1,0]])
+>>> x
+array([[1, 0, 0],
+       [0, 2, 0],
+       [1, 1, 0]])
+>>> np.nonzero(x)
+(array([0, 1, 2, 2]), array([0, 1, 0, 1])) # non zero row index array, no zero column index array
+```
+
+```
+>>> a = np.array([[1,2,3],[4,5,6],[7,8,9]])
+>>> a > 3
+array([[False, False, False],
+       [ True,  True,  True],
+       [ True,  True,  True]])
+>>> np.nonzero(a > 3)
+(array([1, 1, 1, 2, 2, 2]), array([0, 1, 2, 0, 1, 2]))
+```
