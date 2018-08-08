@@ -45,3 +45,7 @@ Dense(), Conv2d() etc. all have its initial weights, and could be diviided into 
         seed：随机数种子
         
 Reference: [Keras_网络配置 » 初始化方法Initializers](http://keras-cn.readthedocs.io/en/latest/other/initializations/)
+
+# Issue 3 CNN Visualization
+
+Refer to: [Fashion MNIST - CNN with Keras](https://www.kaggle.com/bugraokcu/cnn-with-keras)
