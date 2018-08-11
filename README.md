@@ -1,6 +1,6 @@
 # deeplearning
 
-> **Kaggle kernel has GPU, Paddlepaddle kernel doe not!!**
+> **Kaggle kernel has GPU, Paddlepaddle kernel doe not!!** 
 
 # Issue 1 GPU
 
