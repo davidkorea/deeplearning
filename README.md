@@ -1,3 +1,5 @@
+skipgram
+
 # deeplearning
 
 > **Kaggle kernel has GPU, Paddlepaddle kernel doe not!!** 
